@@ -14,3 +14,6 @@ def test_client1():
     for i in range(3):
         print("client %s: %s" %(pid,i))
         sys.stdout.flush()
+
+test_server1()
+test_client1()
