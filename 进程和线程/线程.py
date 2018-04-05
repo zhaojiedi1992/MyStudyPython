@@ -1,5 +1,4 @@
 import time, threading
-
 # 假定这是你的银行存款:
 balance = 0
 lock = threading.Lock()
@@ -55,3 +54,4 @@ t1.start()
 t2.start()
 t1.join()
 t2.join()
+
